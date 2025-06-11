@@ -13,7 +13,7 @@ sh runprebuild.sh
 dotnet build OpenSim.sln
 dotnet build OpenSim.sln --configuration Release
 cp ~/robustos/d2/Configs/OpenSim.ini ~/robustos/opensim/bin/OpenSim.ini
-cp ~/robustos/d2/Configs/RegionConfig.ini.example ~/robustos/opensim/Regions/Regions.ini
+cp ~/robustos/d2/Configs/RegionConfig.ini.example ~/robustos/opensim/bin/Regions/Regions.ini
 cp ~/robustos/d2/Configs/MyWorld.ini.example ~/robustos/opensim/bin/MyWorld.ini
 
 nano ~/robustos/opensim/bin/OpenSim.ini
